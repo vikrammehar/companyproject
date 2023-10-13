@@ -1,0 +1,175 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Karla:ital,wght@1,300&family=Onest:wght@200;500&family=PT+Serif&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@1,200&display=swap');
+
+*{margin: 0;
+padding: 0;}
+
+.flex,.intro1,.intro{width: 90%;
+height: 85vh;
+margin:20px auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.intro img {position: relative;
+overflow: hidden;}
+@media (max-width:420px) {
+    header h1{text-align: start;
+        margin-top: ;
+    }
+    .intro{height: 350vh;
+    margin-bottom: 10px;}
+}
+@media (max-width:1000px) {header h1{margin-top:20px ;}
+    .intro{margin-top: 20px;}
+}
+
+.intro{animation: translate 3s ease-in-out ;}
+   
+   
+.file{width: 750px;
+margin: 0 2px;
+padding-top: 65px;}
+@media (max-width:650px) {
+.intro{height: 120vh;
+margin-top: 20px;}
+.file{width: 300px;
+padding: 0 2px;}  
+
+}
+header h1{text-align: center;
+color: black;
+font-family: 'Playfair Display', serif;
+margin-top: 100px;
+background: rgb(28, 158, 218);
+animation: translate 2s ease-in-out ;}
+.intro p{text-align: center;
+    position: relative;
+    font-size: X-large;
+    margin: 2px;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 10px;
+color: rgb(21, 93, 126);}
+header h2,h3{text-align: center;
+    font-family: 'Playfair Display', serif;
+margin: auto;
+color: rgb(16, 61, 160);}
+.intro1{margin-top: 5px;}
+mark{background: rgb(33, 192, 104);}
+
+footer{position: absolute;
+width: 90%;
+top: 300vh;
+background: #000;
+color: antiquewhite;
+text-align: center;
+left: 50px;
+}
+footer p{ font-family: 'Karla', sans-serif;
+font-size: large;}
+footer a{text-decoration: none;
+font-size: x-large;}
+footer h2{ font-family: 'Karla', sans-serif;
+color: seashell;}
+@media (max-width:600px) {footer{width: 100%;
+    position: relative;
+left: 0;
+text-align: center;
+top: 340vh;}
+footer p{padding: 2px;}  
+}
+
+.pink{width: 250px;
+    height: 300px;
+    background: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    }
+    .pink::after{content: '';
+    position: absolute;
+    background-image: url(https://source.unsplash.com/1000x400/?laptop,office);
+    background-repeat: no-repeat;
+    background-size: cover;
+    inset: 5px;}
+    
+    .pink::before{content: '';
+    width: 280px;
+    position: absolute;
+    height: 100%;
+    background-image: linear-gradient(rgb(40, 22, 202),rgb(216, 21, 63));
+    animation: rotate 2s linear infinite;}
+    @keyframes rotate {0%{transform: rotate(0deg);}
+      50% {transform: rotate(180deg);}
+      100% {transform: rotate(360deg);}
+    }
+.red{width: 250px;
+    height: 300px;
+    background: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    }
+    .red::after{content: '';
+    position: absolute;
+    background-image: url(https://source.unsplash.com/1000x400/?laptop,officeteam);
+    background-repeat: no-repeat;
+    background-size: cover;
+    inset: 5px;}
+    
+    .red::before{content: '';
+    width: 280px;
+    position: absolute;
+    height: 100%;
+    background-image: linear-gradient(rgb(40, 22, 202),rgb(216, 21, 63));
+    animation: rotate 2s linear infinite;}
+    @keyframes rotate {0%{transform: rotate(0deg);}
+      50% {transform: rotate(180deg);}
+      100% {transform: rotate(360deg);}
+    }
+.green{width: 250px;
+    height: 300px;
+    background: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    }
+    .green::after{content: '';
+    position: absolute;
+    background-image: url(https://source.unsplash.com/1000x400/?laptop,office);
+    background-repeat: no-repeat;
+    background-size: cover;
+    inset: 5px;}
+    
+    .green::before{content: '';
+    width: 280px;
+    position: absolute;
+    height: 100%;
+    background-image: linear-gradient(rgb(40, 22, 202),rgb(216, 21, 63));
+    animation: rotate 2s linear infinite;}
+    @keyframes rotate {0%{transform: rotate(0deg);}
+      50% {transform: rotate(180deg);}
+      100% {transform: rotate(360deg);}
+    }
+    
+    @keyframes translate {from{transform: translate(-100vw);}
+    to{transform: translate(+0vw);}
+        
+    }
+        
+    
+
+
